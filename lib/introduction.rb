@@ -4,7 +4,6 @@ end
 
 
 def introduction_with_language(name, language)
-  puts "Hi my name is #{name} and I am learning to programe in #{language}."
+  introduction + 'and I am learning to programe in #{language}.'
+  puts introduction_with_language("Dan", "Ember.js")
 end
-
-introduction_with_language("Dan", "Ember.js")
